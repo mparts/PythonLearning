@@ -1,0 +1,2 @@
+test_site | test_mail@gmail.com | W#9GU)9A#PDav2x3
+test_site2 | test_mail2@gmail.com | test_pass
