@@ -1,0 +1,41 @@
+# --- PERSONAL / SECURITY ---
+# Ignore the specific file for API keys/secrets
+secrets.txt
+.env
+*.log
+
+# --- PYTHON SPECIFIC ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# --- IDE SPECIFIC (VS Code & PyCharm) ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS SPECIFIC: LINUX MINT (Cinnamon/Nemo) ---
+.directory
+.fuse_hidden*
+.Trash-*
+.nfs*
+# Thumbnails created by the file manager
+.thumbnails/
+
+# --- OS SPECIFIC: WINDOWS ---
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+
+# --- OS SPECIFIC: MAC ---
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
